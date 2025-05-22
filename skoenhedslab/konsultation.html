@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Konsultation | Skønheds-Laboratoriet</title>
+    <meta name="description" content="Book en personlig konsultation med Miriam Gardner og få skræddersyet rådgivning om hudpleje, microneedling og anti-aging.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Calendly integration -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/new-logo.png" alt="Skønheds-Laboratoriet Logo" style="max-height: 60px;">
+                    </a>
+                </div>
+                
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Forside</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="produkter.html">Produkter</a></li>
+                        <li><a href="om-mig.html">Om Mig</a></li>
+                        <li><a href="konsultation.html" class="active">Book Konsultation</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="https://www.37skinlab.dk" target="_blank">Webshop</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Book en Personlig Konsultation</h1>
+            <p>Få skræddersyet rådgivning og vejledning til dine specifikke hudpleje- og skønhedsbehov</p>
+        </div>
+    </section>
+    
+    <!-- Consultation Types -->
+    <section class="consultation-types">
+        <div class="container">
+            <h2 class="text-center mb-5">Vælg Din Konsultationstype</h2>
+            
+            <div class="row">
+                <div class="col">
+                    <div class="consultation-card">
+                        <div class="consultation-image">
+                            <img src="images/instories_C792A5C2-B86A-441F-BCCA-FD9703EFA369 (1).png" alt="Hudanalyse & Rådgivning">
+                        </div>
+                        <div class="consultation-info">
+                            <h3>Hudanalyse & Rådgivning</h3>
+                            <p class="consultation-duration"><i class="far fa-clock"></i> 30 minutter</p>
+                            <p class="consultation-price">299 kr</p>
+                            <p>En grundig analyse af din hudtype og -tilstand, efterfulgt af personlige anbefalinger til produkter og rutiner, der passer til dine specifikke behov.</p>
+                            <ul class="consultation-includes">
+                                <li><i class="fas fa-check"></i> Detaljeret hudanalyse</li>
+                                <li><i class="fas fa-check"></i> Personlig produktanbefaling</li>
+                                <li><i class="fas fa-check"></i> Skræddersyet morgen- og aftenrutine</li>
+                                <li><i class="fas fa-check"></i> Opfølgende e-mail med anbefalinger</li>
+                            </ul>
+                            <a href="#calendly" class="btn" onclick="openCalendly('hudanalyse')">Book Nu</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="consultation-card featured">
+                        <div class="featured-tag">Mest Populære</div>
+                        <div class="consultation-image">
+                            <img src="images/instories_AE4D1158-1FA4-43A3-915A-3BA3B12AA301 (1).png" alt="Microneedling Masterclass">
+                        </div>
+                        <div class="consultation-info">
+                            <h3>Microneedling Masterclass</h3>
+                            <p class="consultation-duration"><i class="far fa-clock"></i> 45 minutter</p>
+                            <p class="consultation-price">499 kr</p>
+                            <p>En dybdegående session, hvor jeg guider dig gennem korrekt brug af din dermapen, tilpasset dine specifikke hudproblemer og mål.</p>
+                            <ul class="consultation-includes">
+                                <li><i class="fas fa-check"></i> Personlig vejledning i brug af dermapen</li>
+                                <li><i class="fas fa-check"></i> Skræddersyet protokol til dine hudproblemer</li>
+                                <li><i class="fas fa-check"></i> Anbefalinger til serums og efterpleje</li>
+                                <li><i class="fas fa-check"></i> Opfølgende e-mail med detaljeret protokol</li>
+                                <li><i class="fas fa-check"></i> 10% rabat på PrecisionX5 dermapen</li>
+                            </ul>
+                            <a href="#calendly" class="btn" onclick="openCalendly('microneedling')">Book Nu</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="consultation-card">
+                        <div class="consultation-image">
+                            <img src="images/instories_2189D909-34E0-4C0C-BF31-61283C7CC554.png" alt="Holistisk Skønhedsplan">
+                        </div>
+                        <div class="consultation-info">
+                            <h3>Holistisk Skønhedsplan</h3>
+                            <p class="consultation-duration"><i class="far fa-clock"></i> 60 minutter</p>
+                            <p class="consultation-price">699 kr</p>
+                            <p>En omfattende konsultation, der dækker alle aspekter af skønhed og velvære, fra hudpleje og ernæring til livsstilsændringer og behandlinger.</p>
+                            <ul class="consultation-includes">
+                                <li><i class="fas fa-check"></i> Komplet hudanalyse</li>
+                                <li><i class="fas fa-check"></i> Personlig hudplejerutine</li>
+                                <li><i class="fas fa-check"></i> Ernæringsanbefalinger</li>
+                                <li><i class="fas fa-check"></i> Livsstilsrådgivning</li>
+                                <li><i class="fas fa-check"></i> 3-måneders handlingsplan</li>
+                                <li><i class="fas fa-check"></i> 15% rabat på alle produkter</li>
+                            </ul>
+                            <a href="#calendly" class="btn" onclick="openCalendly('holistisk')">Book Nu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Calendly Integration -->
+    <section id="calendly" class="calendly-section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-3">Vælg Tid og Dato</h2>
+            <p class="text-center mb-5">Alle konsultationer foregår via Zoom. Du vil modtage et link til mødet efter booking.</p>
+            
+            <div class="calendly-container">
+                <!-- Calendly inline widget will be inserted here -->
+                <div id="calendly-widget" class="calendly-inline-widget" style="min-width:320px;height:630px;"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="text-center mb-5">Sådan Foregår Din Konsultation</h2>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Book Din Tid</h3>
+                        <p>Vælg den konsultationstype, der passer til dine behov, og find en ledig tid i min kalender.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Udfyld Spørgeskema</h3>
+                        <p>Efter booking vil du modtage et kort spørgeskema, der hjælper mig med at forberede mig til vores møde.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Modtag Zoom-link</h3>
+                        <p>Du vil modtage en bekræftelsesmail med et Zoom-link til vores møde.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Deltag i Konsultationen</h3>
+                        <p>Klik på Zoom-linket på det aftalte tidspunkt. Hav gerne et rent ansigt uden makeup, så jeg kan se din hud tydeligt.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Modtag Personlig Plan</h3>
+                        <p>Efter konsultationen vil du modtage en detaljeret e-mail med din personlige plan og anbefalinger.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="testimonials bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Hvad Klienter Siger</h2>
+            
+            <div class="row">
+                <div class="col">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Min konsultation med Miriam var en øjenåbner! Hun identificerede straks, at jeg brugte de forkerte produkter til min hudtype, og hendes anbefalinger har fuldstændig transformeret min hud på kun 6 uger."</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="images/instories_C792A5C2-B86A-441F-BCCA-FD9703EFA369 (1).png" alt="Camilla P.">
+                            </div>
+                            <div class="author-info">
+                                <h4>Camilla P.</h4>
+                                <p>38 år, Hudanalyse & Rådgivning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Jeg havde købt en dermapen, men var usikker på, hvordan jeg skulle bruge den. Miriams Microneedling Masterclass gav mig selvtilliden og viden til at bruge den korrekt. Resultaterne har været fantastiske!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="images/instories_2189D909-34E0-4C0C-BF31-61283C7CC554.png" alt="Thomas K.">
+                            </div>
+                            <div class="author-info">
+                                <h4>Thomas K.</h4>
+                                <p>45 år, Microneedling Masterclass</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">"Den holistiske skønhedsplan var præcis, hvad jeg havde brug for. Miriam adresserede ikke kun min hudpleje, men også min kost og livsstil. Hendes råd om Carnivore diæten og tør-faste har givet mig mere energi og bedre hud."</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="images/instories_AE4D1158-1FA4-43A3-915A-3BA3B12AA301 (1).png" alt="Line M.">
+                            </div>
+                            <div class="author-info">
+                                <h4>Line M.</h4>
+                                <p>52 år, Holistisk Skønhedsplan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="text-center mb-5">Ofte Stillede Spørgsmål</h2>
+            
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Hvordan foregår konsultationen?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Alle konsultationer foregår via Zoom. Efter booking vil du modtage et link til mødet samt et kort spørgeskema, der hjælper mig med at forberede mig. Under konsultationen vil vi diskutere dine hudproblemer, mål og nuværende rutine, og jeg vil give dig personlige anbefalinger baseret på dine behov.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Hvad skal jeg forberede inden konsultationen?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Det er bedst at have et rent ansigt uden makeup under konsultationen, så jeg kan se din hud tydeligt. Hav også gerne en liste over de produkter, du bruger i øjeblikket, samt eventuelle hudproblemer eller mål, du ønsker at adressere. Hvis du har en dermapen, er det en god idé at have den klar, hvis du har booket en Microneedling Masterclass.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Kan jeg ændre eller aflyse min booking?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Ja, du kan ændre eller aflyse din booking op til 24 timer før den planlagte tid uden gebyr. Dette kan gøres via linket i din bekræftelsesmail. Ved aflysninger med mindre end 24 timers varsel opkræves det fulde beløb.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Får jeg rabat på produkter efter en konsultation?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Ja, alle klienter modtager en rabatkode efter deres konsultation. Rabatten varierer afhængigt af konsultationstypen: 10% for Hudanalyse & Rådgivning, 10% på PrecisionX5 dermapen for Microneedling Masterclass, og 15% på alle produkter for Holistisk Skønhedsplan.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Kan jeg booke en opfølgende konsultation?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Absolut! Mange klienter vælger at booke opfølgende konsultationer for at justere deres rutine eller adressere nye hudproblemer. Opfølgende konsultationer er tilgængelige til en reduceret pris på 199 kr for 20 minutter. Du kan booke disse direkte via Calendly efter din første konsultation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call to Action -->
+    <section class="cta bg-gold">
+        <div class="container text-center">
+            <h2 class="mb-3">Klar til at transformere din hud?</h2>
+            <p class="mb-4">Book din konsultation i dag og tag det første skridt mod en sundere, mere strålende hud</p>
+            <a href="#calendly" class="btn bg-white text-gold">Book Nu</a>
+        </div>
+    </section>
+    
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2 class="mb-3">Tilmeld Dig Mit Nyhedsbrev</h2>
+            <p>Få eksklusive tips, tilbud og nyheder direkte i din indbakke</p>
+            
+            <form class="newsletter-form">
+                <input type="email" placeholder="Din e-mail adresse" required>
+                <button type="submit">Tilmeld</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="footer-logo">
+                        <img src="images/new-logo.png" alt="Skønheds-Laboratoriet Logo" style="max-height: 60px;">
+                    </div>
+                    <p>Skønheds-Laboratoriet er din guide til hudpleje, anti-aging og selvtillid med Miriam Gardner.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/37skinlab" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/37skinlab" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@37skinlab" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="footer-links">
+                        <h3>Hurtige Links</h3>
+                        <ul>
+                            <li><a href="index.html">Forside</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="produkter.html">Produkter</a></li>
+                            <li><a href="om-mig.html">Om Mig</a></li>
+                            <li><a href="konsultation.html">Book Konsultation</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="footer-links">
+                        <h3>Produkter</h3>
+                        <ul>
+                            <li><a href="https://www.37skinlab.dk/shop">Derma Pen PrecisionX5</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Serums & Cremer</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Hårprodukter</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Tilbehør</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Gavekort</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="footer-links">
+                        <h3>Kontakt</h3>
+                        <ul>
+                            <li><a href="mailto:info@37skinlab.dk">info@37skinlab.dk</a></li>
+                            <li><a href="tel:+4512345678">+45 12 34 56 78</a></li>
+                            <li><a href="kontakt.html">Kontaktformular</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Skønheds-Laboratoriet med Miriam Gardner. Alle rettigheder forbeholdes.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script>
+        function openCalendly(type) {
+            let url = '';
+            
+            switch(type) {
+                case 'hudanalyse':
+                    url = 'https://calendly.com/your-calendly/hudanalyse';
+                    break;
+                case 'microneedling':
+                    url = 'https://calendly.com/your-calendly/microneedling';
+                    break;
+                case 'holistisk':
+                    url = 'https://calendly.com/your-calendly/holistisk';
+                    break;
+                default:
+                    url = 'https://calendly.com/your-calendly';
+            }
+            
+            document.getElementById('calendly-widget').innerHTML = '';
+            Calendly.initInlineWidget({
+                url: url,
+                parentElement: document.getElementById('calendly-widget'),
+                prefill: {},
+                utm: {}
+            });
+            
+            // Scroll to calendly section
+            document.getElementById('calendly').scrollIntoView({behavior: 'smooth'});
+        }
+        
+        // Initialize default calendly widget
+        document.addEventListener('DOMContentLoaded', function() {
+            Calendly.initInlineWidget({
+                url: 'https://calendly.com/your-calendly',
+                parentElement: document.getElementById('calendly-widget'),
+                prefill: {},
+                utm: {}
+            });
+        });
+    </script>
+</body>
+</html>
