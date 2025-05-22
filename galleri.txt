@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleri - Skønheds-Laboratoriet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/new-logo.png" alt="Skønheds-Laboratoriet Logo" style="max-height: 80px;">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="produkter.html">Produkter</a></li>
+                    <li><a href="galleri.html" class="active">Galleri</a></li>
+                    <li><a href="konsultation.html">Konsultation</a></li>
+                    <li><a href="om-mig.html">Om Mig</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero small-hero">
+        <div class="container">
+            <h1>Galleri</h1>
+            <p>Udforsk vores samling af billeder og videoer om hudpleje, microneedling og skønhedsbehandlinger</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-container">
+        <div class="container">
+            <h2>Vores Skønhedsgalleri</h2>
+            <p>Bliv inspireret af vores samling af billeder og videoer, der viser vores produkter, behandlinger og resultater.</p>
+            
+            <!-- Gallery Categories -->
+            <div class="gallery-categories">
+                <div class="gallery-category active" data-filter="all">Alle</div>
+                <div class="gallery-category" data-filter="produkter">Produkter</div>
+                <div class="gallery-category" data-filter="behandlinger">Behandlinger</div>
+                <div class="gallery-category" data-filter="resultater">Resultater</div>
+                <div class="gallery-category" data-filter="videnskab">Videnskab</div>
+            </div>
+            
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Image 1 -->
+                <div class="gallery-item" data-type="image" data-category="produkter">
+                    <img src="images/optimized/SKØNHEDSLABORATORIET.zip_-_15.png" alt="Produkter på korkunderlag">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Hudplejeprodukter</h3>
+                        <p class="gallery-description">Vores eksklusive hudplejeprodukter i naturlige omgivelser</p>
+                    </div>
+                </div>
+                
+                <!-- Image 2 -->
+                <div class="gallery-item" data-type="image" data-category="behandlinger">
+                    <img src="images/optimized/SKØNHEDSLABORATORIET.zip_-_14.png" alt="Serum påføring">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Serum Påføring</h3>
+                        <p class="gallery-description">Korrekt påføring af serum efter microneedling</p>
+                    </div>
+                </div>
+                
+                <!-- Image 3 -->
+                <div class="gallery-item" data-type="image" data-category="videnskab">
+                    <img src="images/optimized/SKØNHEDSLABORATORIET.zip_-_10.png" alt="Hyaluronsyre gel">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Hyaluronsyre</h3>
+                        <p class="gallery-description">Nærbillede af hyaluronsyre gel, der giver intens fugt</p>
+                    </div>
+                </div>
+                
+                <!-- Image 4 -->
+                <div class="gallery-item" data-type="image" data-category="videnskab">
+                    <img src="images/optimized/SKØNHEDSLABORATORIET.zip_-_9.png" alt="Molekylær struktur">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Molekylær Videnskab</h3>
+                        <p class="gallery-description">Molekylær struktur af aktive ingredienser i vores produkter</p>
+                    </div>
+                </div>
+                
+                <!-- Image 5 -->
+                <div class="gallery-item" data-type="image" data-category="videnskab">
+                    <img src="images/optimized/SKØNHEDSLABORATORIET.zip_-_8.png" alt="Blå molekylær struktur">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">DNA Regenerering</h3>
+                        <p class="gallery-description">Visualisering af cellulær regenerering efter microneedling</p>
+                    </div>
+                </div>
+                
+                <!-- Image 6 -->
+                <div class="gallery-item" data-type="image" data-category="videnskab">
+                    <img src="images/optimized/SKØNHEDSLABORATORIET.zip_-_7.png" alt="Rosa molekylær struktur">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Kollagen Stimulering</h3>
+                        <p class="gallery-description">Kollagenproduktion stimuleret af microneedling behandling</p>
+                    </div>
+                </div>
+                
+                <!-- Image 7 -->
+                <div class="gallery-item" data-type="image" data-category="produkter">
+                    <img src="images/optimized/SKØNHEDSLABORATORIET.zip_-_6.png" alt="Produkter på korkunderlag">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Naturlige Ingredienser</h3>
+                        <p class="gallery-description">Vores produkter indeholder kun de bedste naturlige ingredienser</p>
+                    </div>
+                </div>
+                
+                <!-- GIF 1 -->
+                <div class="gallery-item" data-type="gif" data-category="behandlinger">
+                    <div class="gif-container" data-gif="images/gifs/SKØNHEDSLABORATORIET.gif">
+                        <img src="images/optimized/SKØNHEDSLABORATORIET.zip_-_15_(1).png" alt="Microneedling behandling">
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Microneedling Demonstration</h3>
+                        <p class="gallery-description">Se hvordan PrecisionX5 dermapennen bruges korrekt</p>
+                    </div>
+                </div>
+                
+                <!-- GIF 2 -->
+                <div class="gallery-item" data-type="gif" data-category="resultater">
+                    <div class="gif-container" data-gif="images/gifs/SKØNHEDSLABORATORIET_(1).gif">
+                        <img src="images/optimized/SKØNHEDSLABORATORIET.zip_-_15.png" alt="Før og efter resultater">
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Transformerende Resultater</h3>
+                        <p class="gallery-description">Før og efter resultater med PrecisionX5 dermapennen</p>
+                    </div>
+                </div>
+                
+                <!-- GIF 3 -->
+                <div class="gallery-item" data-type="gif" data-category="videnskab">
+                    <div class="gif-container" data-gif="images/gifs/SKØNHEDSLABORATORIET_(2).gif">
+                        <img src="images/optimized/SKØNHEDSLABORATORIET.zip_-_8.png" alt="Videnskabelig animation">
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Videnskaben Bag Microneedling</h3>
+                        <p class="gallery-description">Visualisering af hvordan microneedling stimulerer kollagenproduktion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <div class="lightbox-content"></div>
+        <div class="lightbox-caption"></div>
+        <div class="lightbox-close"><i class="fas fa-times"></i></div>
+        <div class="lightbox-nav lightbox-prev"><i class="fas fa-chevron-left"></i></div>
+        <div class="lightbox-nav lightbox-next"><i class="fas fa-chevron-right"></i></div>
+    </div>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Klar til at forbedre din hud?</h2>
+            <p>Prøv PrecisionX5 dermapennen og oplev transformerende resultater</p>
+            <a href="produkter.html" class="btn btn-primary">Se Vores Produkter</a>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Tilmeld dig vores nyhedsbrev</h2>
+            <p>Få de seneste nyheder, tips og eksklusive tilbud direkte i din indbakke</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Din e-mail adresse" required>
+                <button type="submit" class="btn btn-light">Tilmeld</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/new-logo.png" alt="Skønheds-Laboratoriet Logo" style="max-height: 60px;">
+                    <p>Professionel hudpleje og skønhedsbehandlinger</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Hurtige Links</h3>
+                    <ul>
+                        <li><a href="index.html">Forside</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="produkter.html">Produkter</a></li>
+                        <li><a href="galleri.html">Galleri</a></li>
+                        <li><a href="konsultation.html">Konsultation</a></li>
+                        <li><a href="om-mig.html">Om Mig</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Kontakt Os</h3>
+                    <p><i class="fas fa-envelope"></i> info@skoenhedslab.dk</p>
+                    <p><i class="fas fa-phone"></i> +45 12 34 56 78</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/37skinlab" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/37skinlab" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@37skinlab" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Skønheds-Laboratoriet. Alle rettigheder forbeholdes.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

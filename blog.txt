@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Skønheds-Laboratoriet med Miriam Gardner</title>
+    <meta name="description" content="Læs de seneste blogindlæg om hudpleje, anti-aging, microneedling og sundhed fra Skønheds-Laboratoriet med Miriam Gardner.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/new-logo.png" alt="Skønheds-Laboratoriet Logo" style="max-height: 60px;">
+                    </a>
+                </div>
+                
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Forside</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="produkter.html">Produkter</a></li>
+                        <li><a href="om-mig.html">Om Mig</a></li>
+                        <li><a href="konsultation.html">Book Konsultation</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="https://www.37skinlab.dk" target="_blank">Webshop</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Blog Header -->
+    <section class="hero" style="padding: 60px 0;">
+        <div class="container">
+            <h1 class="fade-in">Skønheds-Laboratoriet Blog</h1>
+            <p class="fade-in delay-1">Ekspert tips, guides og ærlige anmeldelser om hudpleje, anti-aging og selvtillid</p>
+        </div>
+    </section>
+    
+    <!-- Blog Categories -->
+    <section class="blog-categories">
+        <div class="container">
+            <div class="categories-wrapper bg-white p-3 rounded shadow mb-5">
+                <ul class="categories-list">
+                    <li><a href="#" class="active">Alle</a></li>
+                    <li><a href="#">Microneedling</a></li>
+                    <li><a href="#">Hudpleje</a></li>
+                    <li><a href="#">Anti-aging</a></li>
+                    <li><a href="#">Hårvækst</a></li>
+                    <li><a href="#">Kost & Sundhed</a></li>
+                    <li><a href="#">Træning</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Post -->
+    <section class="featured-post">
+        <div class="container">
+            <div class="featured-post-wrapper bg-white rounded shadow mb-5">
+                <div class="row">
+                    <div class="col" style="flex: 0 0 40%; max-width: 40%;">
+                        <div class="featured-post-image">
+                            <img src="images/instories_AE4D1158-1FA4-43A3-915A-3BA3B12AA301 (1).png" alt="Sådan bruger du dermapennen PrecisionX5 hjemme">
+                        </div>
+                    </div>
+                    <div class="col" style="flex: 0 0 60%; max-width: 60%;">
+                        <div class="featured-post-content p-4">
+                            <span class="featured-label">Fremhævet Indlæg</span>
+                            <div class="blog-meta mt-2 mb-2">
+                                <span><i class="far fa-calendar"></i> 21. april 2025</span>
+                                <span><i class="far fa-user"></i> Miriam Gardner</span>
+                                <span><i class="far fa-folder"></i> Microneedling, Hudpleje</span>
+                            </div>
+                            <h2>Sådan bruger du dermapennen PrecisionX5 hjemme – til både hud og hår</h2>
+                            <p>Har du hørt om microneedling – men tænkt "er det noget for mig?" Svaret er ja, hvis du vil styrke huden, mindske rynker og endda forbedre hårvækst! Og det bedste? Du kan gøre det hjemme med et professionelt resultat.</p>
+                            <p>Her får du en enkel trin-for-trin guide til hvordan du bruger PrecisionX5 dermapen – både i ansigtet og på områder med begyndende hårtab.</p>
+                            <a href="blog/sadan-bruger-du-dermapennen.html" class="btn mt-3">Læs Hele Indlægget</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Blog Posts -->
+    <section class="blog-posts">
+        <div class="container">
+            <h2 class="mb-4">Seneste Indlæg</h2>
+            
+            <div class="row">
+                <div class="col">
+                    <div class="blog-card fade-in">
+                        <div class="blog-image">
+                            <img src="images/instories_AE4D1158-1FA4-43A3-915A-3BA3B12AA301 (1).png" alt="Sådan bruger du dermapennen PrecisionX5 hjemme">
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 21. april 2025</span>
+                                <span><i class="far fa-user"></i> Miriam Gardner</span>
+                            </div>
+                            <h3>Sådan bruger du dermapennen PrecisionX5 hjemme</h3>
+                            <p class="blog-excerpt">Har du hørt om microneedling – men tænkt "er det noget for mig?" Svaret er ja, hvis du vil styrke huden, mindske rynker og endda forbedre hårvækst!</p>
+                            <a href="blog/sadan-bruger-du-dermapennen.html" class="btn">Læs Mere</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="blog-card fade-in delay-1">
+                        <div class="blog-image">
+                            <img src="images/instories_C792A5C2-B86A-441F-BCCA-FD9703EFA369 (1).png" alt="Anti-age behandlinger der virker">
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 18. april 2025</span>
+                                <span><i class="far fa-user"></i> Miriam Gardner</span>
+                            </div>
+                            <h3>Anti-age behandlinger der virker</h3>
+                            <p class="blog-excerpt">Hvilke anti-age behandlinger giver reelle resultater? Jeg gennemgår de mest effektive metoder baseret på min 20-årige erfaring i beautybranchen.</p>
+                            <a href="blog/anti-age-behandlinger.html" class="btn">Læs Mere</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="blog-card fade-in delay-2">
+                        <div class="blog-image">
+                            <img src="images/instories_2189D909-34E0-4C0C-BF31-61283C7CC554.png" alt="Nanoneedling - Fordele for alle aldersgrupper">
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 15. april 2025</span>
+                                <span><i class="far fa-user"></i> Miriam Gardner</span>
+                            </div>
+                            <h3>Nanoneedling - Fordele for alle aldersgrupper</h3>
+                            <p class="blog-excerpt">Nanoneedling er ikke kun for modne hude - selv teenagere kan få glæde af denne skånsomme behandling. Lær hvordan det kan hjælpe forskellige hudtyper.</p>
+                            <a href="blog/nanoneedling-fordele.html" class="btn">Læs Mere</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="blog-card fade-in">
+                        <div class="blog-image">
+                            <img src="images/instories_AE4D1158-1FA4-43A3-915A-3BA3B12AA301 (1).png" alt="Carnivore Diet - Sådan påvirker det din hud">
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 10. april 2025</span>
+                                <span><i class="far fa-user"></i> Miriam Gardner</span>
+                            </div>
+                            <h3>Carnivore Diet - Sådan påvirker det din hud</h3>
+                            <p class="blog-excerpt">Carnivore diæten er blevet populær for sine sundhedsmæssige fordele. Men hvordan påvirker den din hud? Jeg deler min personlige erfaring og videnskaben bag.</p>
+                            <a href="blog/carnivore-diet.html" class="btn">Læs Mere</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="blog-card fade-in delay-1">
+                        <div class="blog-image">
+                            <img src="images/instories_C792A5C2-B86A-441F-BCCA-FD9703EFA369 (1).png" alt="Tør-faste / Snake Juice Faste - Min erfaring">
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 5. april 2025</span>
+                                <span><i class="far fa-user"></i> Miriam Gardner</span>
+                            </div>
+                            <h3>Tør-faste / Snake Juice Faste - Min erfaring</h3>
+                            <p class="blog-excerpt">Tør-faste og Snake Juice faste er blevet populære metoder til at opnå sundhedsmæssige fordele. Jeg deler min personlige rejse og resultater efter 3 måneder.</p>
+                            <a href="blog/tor-faste-snake-juice.html" class="btn">Læs Mere</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="blog-card fade-in delay-2">
+                        <div class="blog-image">
+                            <img src="images/instories_2189D909-34E0-4C0C-BF31-61283C7CC554.png" alt="Hjemmetræning med håndvægte - Komplet program">
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 1. april 2025</span>
+                                <span><i class="far fa-user"></i> Miriam Gardner</span>
+                            </div>
+                            <h3>Hjemmetræning med håndvægte - Komplet program</h3>
+                            <p class="blog-excerpt">Et effektivt træningsprogram du kan lave derhjemme med kun to 10 kg håndvægte. Komplet med videoguides til korrekt udførelse af alle øvelser.</p>
+                            <a href="blog/hjemmetraening-med-haandvaegte.html" class="btn">Læs Mere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pagination -->
+            <div class="pagination text-center mt-5">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#"><i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2 class="mb-3">Tilmeld Dig Mit Nyhedsbrev</h2>
+            <p>Få eksklusive tips, tilbud og nyheder direkte i din indbakke</p>
+            
+            <form class="newsletter-form">
+                <input type="email" placeholder="Din e-mail adresse" required>
+                <button type="submit">Tilmeld</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="footer-logo">
+                        <img src="images/new-logo.png" alt="Skønheds-Laboratoriet Logo" style="max-height: 60px;">
+                    </div>
+                    <p>Skønheds-Laboratoriet er din guide til hudpleje, anti-aging og selvtillid med Miriam Gardner.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/37skinlab" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/37skinlab" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@37skinlab" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="footer-links">
+                        <h3>Hurtige Links</h3>
+                        <ul>
+                            <li><a href="index.html">Forside</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="produkter.html">Produkter</a></li>
+                            <li><a href="om-mig.html">Om Mig</a></li>
+                            <li><a href="konsultation.html">Book Konsultation</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="footer-links">
+                        <h3>Produkter</h3>
+                        <ul>
+                            <li><a href="https://www.37skinlab.dk/shop">Derma Pen PrecisionX5</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Serums & Cremer</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Hårprodukter</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Tilbehør</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Gavekort</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="footer-links">
+                        <h3>Kontakt</h3>
+                        <ul>
+                            <li><a href="mailto:info@37skinlab.dk">info@37skinlab.dk</a></li>
+                            <li><a href="tel:+4512345678">+45 12 34 56 78</a></li>
+                            <li><a href="kontakt.html">Kontaktformular</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Skønheds-Laboratoriet med Miriam Gardner. Alle rettigheder forbeholdes.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

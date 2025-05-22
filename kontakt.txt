@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Skønheds-Laboratoriet</title>
+    <meta name="description" content="Kontakt Miriam Gardner for spørgsmål om hudpleje, microneedling eller samarbejdsmuligheder.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/new-logo.png" alt="Skønheds-Laboratoriet Logo" style="max-height: 60px;">
+                    </a>
+                </div>
+                
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Forside</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="produkter.html">Produkter</a></li>
+                        <li><a href="om-mig.html">Om Mig</a></li>
+                        <li><a href="konsultation.html">Book Konsultation</a></li>
+                        <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                        <li><a href="https://www.37skinlab.dk" target="_blank">Webshop</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Kontakt Mig</h1>
+            <p>Har du spørgsmål, feedback eller samarbejdsforslag? Jeg hører gerne fra dig!</p>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col" style="flex: 0 0 40%; max-width: 40%;">
+                    <div class="contact-info">
+                        <h2>Kontaktinformation</h2>
+                        <p>Du er altid velkommen til at kontakte mig med spørgsmål om hudpleje, produkter eller samarbejdsmuligheder. Jeg bestræber mig på at svare inden for 24-48 timer på hverdage.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Email</h3>
+                                    <p><a href="mailto:info@37skinlab.dk">info@37skinlab.dk</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Telefon</h3>
+                                    <p><a href="tel:+4512345678">+45 12 34 56 78</a></p>
+                                    <p class="contact-note">Mandag-fredag: 10:00-16:00</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Adresse</h3>
+                                    <p>37Skinlab ApS</p>
+                                    <p>Skønhedsvej 37</p>
+                                    <p>2100 København Ø</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links mt-4">
+                            <h3>Følg Mig</h3>
+                            <div class="social-icons">
+                                <a href="https://www.instagram.com/37skinlab" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/37skinlab" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.tiktok.com/@37skinlab" target="_blank"><i class="fab fa-tiktok"></i></a>
+                                <a href="https://www.youtube.com/channel/37skinlab" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col" style="flex: 0 0 60%; max-width: 60%;">
+                    <div class="contact-form-container">
+                        <h2>Send Mig en Besked</h2>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Navn *</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phone">Telefon</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="subject">Emne *</label>
+                                    <select id="subject" name="subject" required>
+                                        <option value="" selected disabled>Vælg et emne</option>
+                                        <option value="product">Produktspørgsmål</option>
+                                        <option value="skincare">Hudplejespørgsmål</option>
+                                        <option value="collaboration">Samarbejdsforslag</option>
+                                        <option value="press">Presse/Mediehenvendelse</option>
+                                        <option value="other">Andet</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Besked *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <label for="newsletter">Ja tak, jeg vil gerne modtage nyhedsbrev med tips og tilbud</label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="privacy" name="privacy" required>
+                                    <label for="privacy">Jeg accepterer <a href="#" class="text-gold">privatlivspolitikken</a> *</label>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="btn">Send Besked</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ -->
+    <section class="faq bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Ofte Stillede Spørgsmål</h2>
+            
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Hvor hurtigt kan jeg forvente svar?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Jeg bestræber mig på at svare på alle henvendelser inden for 24-48 timer på hverdage. I travle perioder kan svartiden være lidt længere, men jeg vil altid gøre mit bedste for at vende tilbage til dig så hurtigt som muligt.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Kan jeg få personlig hudpleje-rådgivning via kontaktformularen?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>For detaljeret og personlig hudpleje-rådgivning anbefaler jeg at booke en konsultation, hvor jeg kan give dig skræddersyet vejledning baseret på dine specifikke behov. Kontaktformularen er bedst til generelle spørgsmål, produktforespørgsler eller samarbejdshenvendelser.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Hvordan kan jeg samarbejde med dig?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Jeg er åben for forskellige samarbejdsmuligheder, herunder produktanmeldelser, sponsorerede indlæg, affiliate partnerskaber og gæsteblogindlæg. Send mig en detaljeret beskrivelse af dit forslag via kontaktformularen, og jeg vil vende tilbage til dig med mine tanker og eventuelle betingelser.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Kan jeg få refunderet et produkt, jeg har købt?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>For spørgsmål om refundering eller returnering af produkter købt fra vores webshop, bedes du kontakte os direkte via email med dit ordrenummer og årsagen til returneringen. Vi tilbyder 30 dages returret på alle produkter i original emballage. Bemærk, at af hygiejniske årsager kan vi ikke acceptere returneringer af åbnede serums eller nåle.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Tilbyder du wholesale eller dropshipping muligheder?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Ja, vi tilbyder wholesale muligheder for udvalgte produkter til saloner, klinikker og forhandlere. Kontakt os med detaljer om din virksomhed, og vi vil sende dig vores wholesale katalog og betingelser. Vi tilbyder i øjeblikket ikke dropshipping.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call to Action -->
+    <section class="cta bg-gold">
+        <div class="container text-center">
+            <h2 class="mb-3">Har du brug for personlig rådgivning?</h2>
+            <p class="mb-4">Book en konsultation og få skræddersyet vejledning til dine hudpleje- og skønhedsbehov</p>
+            <a href="konsultation.html" class="btn bg-white text-gold">Book Konsultation</a>
+        </div>
+    </section>
+    
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2 class="mb-3">Tilmeld Dig Mit Nyhedsbrev</h2>
+            <p>Få eksklusive tips, tilbud og nyheder direkte i din indbakke</p>
+            
+            <form class="newsletter-form">
+                <input type="email" placeholder="Din e-mail adresse" required>
+                <button type="submit">Tilmeld</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="footer-logo">
+                        <img src="images/new-logo.png" alt="Skønheds-Laboratoriet Logo" style="max-height: 60px;">
+                    </div>
+                    <p>Skønheds-Laboratoriet er din guide til hudpleje, anti-aging og selvtillid med Miriam Gardner.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/37skinlab" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/37skinlab" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@37skinlab" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="footer-links">
+                        <h3>Hurtige Links</h3>
+                        <ul>
+                            <li><a href="index.html">Forside</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="produkter.html">Produkter</a></li>
+                            <li><a href="om-mig.html">Om Mig</a></li>
+                            <li><a href="konsultation.html">Book Konsultation</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="footer-links">
+                        <h3>Produkter</h3>
+                        <ul>
+                            <li><a href="https://www.37skinlab.dk/shop">Derma Pen PrecisionX5</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Serums & Cremer</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Hårprodukter</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Tilbehør</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Gavekort</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="footer-links">
+                        <h3>Kontakt</h3>
+                        <ul>
+                            <li><a href="mailto:info@37skinlab.dk">info@37skinlab.dk</a></li>
+                            <li><a href="tel:+4512345678">+45 12 34 56 78</a></li>
+                            <li><a href="kontakt.html">Kontaktformular</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Skønheds-Laboratoriet med Miriam Gardner. Alle rettigheder forbeholdes.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script>
+        // Form submission handling
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Here you would normally send the form data to a server
+            // For demonstration purposes, we'll just show a success message
+            
+            // Get form data
+            const formData = new FormData(this);
+            const formValues = {};
+            for (let [key, value] of formData.entries()) {
+                formValues[key] = value;
+            }
+            
+            // Log form data (for demonstration)
+            console.log('Form submitted:', formValues);
+            
+            // Show success message
+            this.innerHTML = `
+                <div class="success-message">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Tak for din henvendelse!</h3>
+                    <p>Din besked er blevet sendt. Jeg vil vende tilbage til dig hurtigst muligt.</p>
+                </div>
+            `;
+        });
+    </script>
+</body>
+</html>

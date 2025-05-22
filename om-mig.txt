@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Mig | Skønheds-Laboratoriet med Miriam Gardner</title>
+    <meta name="description" content="Lær Miriam Gardner at kende - kosmetolog, beauty-konsulent og hudplejeekspert med over 20 års erfaring i beautybranchen.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/new-logo.png" alt="Skønheds-Laboratoriet Logo" style="max-height: 60px;">
+                    </a>
+                </div>
+                
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Forside</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="produkter.html">Produkter</a></li>
+                        <li><a href="om-mig.html">Om Mig</a></li>
+                        <li><a href="konsultation.html">Book Konsultation</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="https://www.37skinlab.dk" target="_blank">Webshop</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- About Hero -->
+    <section class="hero" style="padding: 60px 0;">
+        <div class="container">
+            <h1 class="fade-in">Om Miriam Gardner</h1>
+            <p class="fade-in delay-1">Kosmetolog, beauty-konsulent og hudplejeekspert med over 20 års erfaring</p>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col" style="flex: 0 0 40%; max-width: 40%;">
+                    <div class="about-image fade-in">
+                        <img src="images/IMG_9960.jpeg" alt="Miriam Gardner" style="width: 100%; border-radius: 10px;">
+                    </div>
+                    
+                    <div class="about-social mt-4 text-center">
+                        <h3>Følg Mig</h3>
+                        <div class="social-links" style="justify-content: center;">
+                            <a href="https://www.instagram.com/37skinlab" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/37skinlab" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.tiktok.com/@37skinlab" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col" style="flex: 0 0 60%; max-width: 60%;">
+                    <div class="about-content fade-in delay-1">
+                        <h2>Velkommen til Skønheds-Laboratoriet</h2>
+                        
+                        <p>Hej og velkommen til mit lille skønhedsunivers!</p>
+                        
+                        <p>Jeg hedder Miriam, er 55 år og har over 20 års erfaring fra beautybranchen som kosmetolog, Chanel- og Matas-konsulent – og ja, jeg er også sangpædagog! Her på Skønheds-Laboratoriet deler jeg ærlige erfaringer, tips og guides til hudpleje og anti-aging – for både kvinder og mænd.</p>
+                        
+                        <p>Uanset om du vil forbedre din hud, mindske rynker, styrke selvtilliden eller finde en effektiv metode mod hårudtynding, så er du landet det rigtige sted. Her handler det ikke om skønhedsidealer, men om at føle sig godt tilpas i sin hud – uanset køn og alder 💪✨</p>
+                        
+                        <h3 class="mt-4">Min Baggrund</h3>
+                        
+                        <p>Min rejse i skønhedsverdenen begyndte for over to årtier siden, hvor min passion for hudpleje og skønhed førte mig til en uddannelse som kosmetolog. Siden da har jeg arbejdet som konsulent for prestigefyldte brands som Chanel og i Matas, hvor jeg har hjulpet tusindvis af kunder med at finde de rette produkter til deres specifikke behov.</p>
+                        
+                        <p>Gennem årene har jeg set utallige trends komme og gå, men min filosofi har altid været den samme: Ægte skønhed handler om sundhed, selvtillid og velvære – ikke om at følge flygtige trends eller dyre mirakelkure.</p>
+                        
+                        <h3 class="mt-4">Min Tilgang til Hudpleje</h3>
+                        
+                        <p>Jeg tror på en holistisk tilgang til hudpleje, hvor både indre og ydre faktorer spiller en rolle. Det handler ikke kun om, hvad du smører på huden, men også om kost, motion, søvn og stresshåndtering.</p>
+                        
+                        <p>Min specialitet er at hjælpe mennesker med at opnå synlige resultater gennem enkle, effektive rutiner og produkter, der faktisk virker. Jeg er særligt optaget af microneedling og andre innovative behandlinger, der kan give professionelle resultater hjemme.</p>
+                        
+                        <h3 class="mt-4">Hvem er siden til?</h3>
+                        
+                        <ul>
+                            <li>Kvinder over 50, der vil tage hånd om deres hud og føle sig fantastiske</li>
+                            <li>Mænd, der gerne vil se friske ud, forebygge alderstegn eller styrke hårvækst</li>
+                            <li>Alle, der er trætte af hype og gerne vil have ærlige anmeldelser og virksomme hjemmebehandlinger</li>
+                        </ul>
+                        
+                        <h3 class="mt-4">Min Mission</h3>
+                        
+                        <p>Mit mål med Skønheds-Laboratoriet er at dele min viden og erfaring på en ærlig og tilgængelig måde. Jeg vil hjælpe dig med at navigere i junglen af produkter og behandlinger, så du kan træffe informerede valg og opnå de resultater, du ønsker.</p>
+                        
+                        <p>Jeg tror på, at alle fortjener at føle sig godt tilpas i deres egen hud, uanset alder eller køn. Og jeg er overbevist om, at det ikke behøver at være kompliceret eller dyrt at opnå en sund, strålende hud.</p>
+                        
+                        <div class="cta-box bg-light p-4 rounded shadow mt-5">
+                            <h3 class="mb-2">Lad os arbejde sammen</h3>
+                            <p>Har du spørgsmål eller ønsker du personlig vejledning? Book en konsultation med mig, hvor vi kan diskutere dine specifikke behov og mål.</p>
+                            <a href="konsultation.html" class="btn mt-2">Book Konsultation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="mb-4">Hvad Mine Kunder Siger</h2>
+            
+            <div class="row">
+                <div class="col">
+                    <div class="testimonial-card fade-in">
+                        <p class="testimonial-text">"Jeg har brugt Miriams guide til PrecisionX5 dermapennen i 3 måneder nu, og min hud har aldrig set bedre ud. Rynkerne omkring øjnene er betydeligt reduceret!"</p>
+                        <p class="testimonial-author">- Lise, 48 år</p>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="testimonial-card fade-in delay-1">
+                        <p class="testimonial-text">"Som mand var jeg skeptisk over for hudpleje, men Miriams råd har virkelig gjort en forskel. Min hovedbund er mindre synlig, og håret ser tykkere ud efter bare 2 måneder."</p>
+                        <p class="testimonial-author">- Thomas, 52 år</p>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="testimonial-card fade-in delay-2">
+                        <p class="testimonial-text">"Miriams konsultation var guld værd! Hun gav mig en personlig hudplejerutine, der passer perfekt til min kombinerede hud. Endelig slut med akne i en alder af 40!"</p>
+                        <p class="testimonial-author">- Sofie, 41 år</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="text-center mb-4">Mine Anbefalede Produkter</h2>
+            
+            <div class="row">
+                <div class="col">
+                    <div class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="images/instories_AE4D1158-1FA4-43A3-915A-3BA3B12AA301 (1).png" alt="Derma Pen PrecisionX5">
+                        </div>
+                        <div class="product-info">
+                            <h3>Derma Pen PrecisionX5</h3>
+                            <p>Professionel microneedling hjemme - til både hud og hår</p>
+                            <div class="product-price">1.499 kr</div>
+                            <a href="https://www.37skinlab.dk/shop" class="btn">Se Produkt</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="product-card fade-in delay-1">
+                        <div class="product-image">
+                            <img src="images/instories_C792A5C2-B86A-441F-BCCA-FD9703EFA369 (1).png" alt="Hyaluronsyre Serum">
+                        </div>
+                        <div class="product-info">
+                            <h3>Hyaluronsyre Serum</h3>
+                            <p>Perfekt til brug med din Derma Pen for maksimal effekt</p>
+                            <div class="product-price">349 kr</div>
+                            <a href="https://www.37skinlab.dk/shop" class="btn">Se Produkt</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="product-card fade-in delay-2">
+                        <div class="product-image">
+                            <img src="images/instories_2189D909-34E0-4C0C-BF31-61283C7CC554.png" alt="Hårserum med Koffein">
+                        </div>
+                        <div class="product-info">
+                            <h3>Hårserum med Koffein</h3>
+                            <p>Stimulerer hårvækst og styrker hårsækkene</p>
+                            <div class="product-price">399 kr</div>
+                            <a href="https://www.37skinlab.dk/shop" class="btn">Se Produkt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2 class="mb-3">Tilmeld Dig Mit Nyhedsbrev</h2>
+            <p>Få eksklusive tips, tilbud og nyheder direkte i din indbakke</p>
+            
+            <form class="newsletter-form">
+                <input type="email" placeholder="Din e-mail adresse" required>
+                <button type="submit">Tilmeld</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="footer-logo">
+                        <img src="images/new-logo.png" alt="Skønheds-Laboratoriet Logo" style="max-height: 60px;">
+                    </div>
+                    <p>Skønheds-Laboratoriet er din guide til hudpleje, anti-aging og selvtillid med Miriam Gardner.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/37skinlab" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/37skinlab" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@37skinlab" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="footer-links">
+                        <h3>Hurtige Links</h3>
+                        <ul>
+                            <li><a href="index.html">Forside</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="produkter.html">Produkter</a></li>
+                            <li><a href="om-mig.html">Om Mig</a></li>
+                            <li><a href="konsultation.html">Book Konsultation</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="footer-links">
+                        <h3>Produkter</h3>
+                        <ul>
+                            <li><a href="https://www.37skinlab.dk/shop">Derma Pen PrecisionX5</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Serums & Cremer</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Hårprodukter</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Tilbehør</a></li>
+                            <li><a href="https://www.37skinlab.dk/shop">Gavekort</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="footer-links">
+                        <h3>Kontakt</h3>
+                        <ul>
+                            <li><a href="mailto:info@37skinlab.dk">info@37skinlab.dk</a></li>
+                            <li><a href="tel:+4512345678">+45 12 34 56 78</a></li>
+                            <li><a href="kontakt.html">Kontaktformular</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Skønheds-Laboratoriet med Miriam Gardner. Alle rettigheder forbeholdes.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
